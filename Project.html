@@ -2,41 +2,63 @@
 <html>
 <style>
 body {
-  background-image: url(img/watch.jpg);
+  background-image: url(img/new.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+</style>
+<style>
+
+div.transbox {
+  margin: 30px;
+  background-color: #000000;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+div.transbox pre {
+  margin: 5%;
+  font-weight: bold;
+  color: #ffffff;
 }
 </style>
 <head>
 <title>Assessment 1</title>
 <h1 style="color:white;">Assessment 1</h1>
 <h2 style="color:white;">Introduciton to Information Technology</h2>
-<a  href="Index.html" style="color:blue;">Home</a>
-<a href="Profile.html" style="color:blue;">Personal Profile</a>
-<a href="Project.html" style="color:blue;">Project Idea</a>
+<h3>
+<a href="index.html" style="color:blue;">-Home-</a>
 <a href="Job.html" style="color:blue;">Ideal Job</a>
+<a href="Profile.html" style="color:blue;">-Personal Profile-</a>
+<a href="Project.html" style="color:white;">-Project Idea-</a>
+</h3>
 <title>Page Title</title>
+
+<style>
+  pre {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+  }
+  </style>
+
 </head>
 <body>
-<title>Project Idea</title>
 <h2 style="color:white;">Project Idea</h3>
+<div class="transbox">
 <pre style="color:white;">
-Overview
-
+<h3>Overview</h3>
 I really don’t know if this is a suitable idea or what “significant tangible artifacts” are. Nor do I know if it will be “feasabile” to complete by Assesmment 3. I don’t know how anyone in week 3 of university, with absolutely zero experience in any tool required to complete said project, would be able to estimate whether the project is possible to complete in that time frame or if they will possess the required skills to do so by then.
 But I will try my best.
 
 My project idea is a Garmin watch app with the possibility to expand that into an android application to help users create watch faces and data screens for their Garmin devices.
 The watch app I am hoping to develop is specifically for my watch (fenix 6x). It will be a simple calculator style app that will help users determine running pace for desired distances and times. This will assist users to set accurate goals and compare pace with friends.
-
-
-Motivation
-
+<h3>Motivation</h3>
 My motivation to develop this app and expand my knowledge in this field comes from my love of health/fitness and desire to easily track my progression and use technology to help set small achievable goals. I find myself often referring to my phone to calculate running pace targets to input into my watch. This seems silly in the year 2020 when our watches have the ability to interface, calculate and display this information. So I hope to create something to help myself and others reach their goals.
-
-Description
-
+<h3>Description</h3>
 The app will be called Pace Calculator and will hopefully be available on Garmin Connect IQ store as a free but copyright “widget”. Widget is the name for an application that can be accessed from the main screen/watchface of most of Garmin’s devices. By pressing the bottom left button of the watch you can see all installed widgets. This is where a user would select the Pace Calculator. It will have three fields that can all accept input from the user (pace, time, distance). The user will only need to enter two fields to calculate the third. The expected use case being that the user will enter the desired time, the known distance and then the app will generate the required pace the user will need to hold, displayed as in minutes per kilometer.
 For example I have a 5km running track near home that I regularly visit. I know what times I usually run and I know what times I want to run to be competitive but I do not know the exact pace I need to hold (minutes/per kilometer) to achieve the goal time. This is handy information when comparing times and distances with friends and when setting a feature on the watch called “Virtual Partner”. This is a feature that helps you run to a target pace and graphically displays your position in a “virtual race” relative to a “virtual partner” who is moving at the target pace. It also displays the distance or time that you are in front or behind that “virtual partner”.
 
@@ -47,24 +69,15 @@ Some of the latest Garmin watches have a feature called PacePro which is similar
 Most of Garmin’s devices have Virtual Partner and Race and Activity features which are also similar to what I am trying to achieve but require you to either already know what pace you want to run or have run the exact track, with the same start/finish point,  previously and saved it as a course.
 
 My Pace Calculator app will make things much simpler for people who already use Virtual Partner. It will help people achieve the same goal as Run an Activity and PacePro without the use of ConnectIQ on the phone or computer and also will save you trying to calculate pace in your head prior to a run.
-
-
-Tools and Technologies
-
+<h3>Tools and Technologies</h3>
 The tools and technology needed for this are fairly simple. I am lucky I already have a top of the line Garmin fitness watch which is handy, the sdk has a device simulator but I am assuming that running the widget on a compatible device and testing it directly on the intended hardware would be very beneficial. I will also need a capable computer to run the programs needed and the Garmin watch usb cable to interface with my watch to run the tests.
-
-Skills Required
-
+<a style="color:red;" href="https://developer.garmin.com/connect-iq/sdk/">Garmin SDK tools</a>
+<h3>Skills Required</h3>
 I will need a large array of skills to complete this project. Some of which are currently being taught in the other RMIT subject that I am currently studying (Introduction to Programming). We are currently learning Java using Eclipse which is exactly what is needed to implement and code using the Garmin SDK. I will also need to learn how to install and use the Eclipse plugin for the Garmin SDK as well as use the Connect IQ Mobile SDK if I plan to create an accompanying android/ios app for the widget.
-
-
-Outcome
-
+<h3>Outcome</h3>
 If I am successful in the creation and submission of this project it will have resolved my personal issue with calculating progressive pace/speed increases in my training without a phone and without using other difficult Garmin features. It will also hopefully help many other users who have the same needs when or if Garmin accepts it as a legitimate and safe app to advertise to users on their Garmin Connect IQ store after submission. I will need to figure out how long Garmin takes to test and approve these user created apps so I can have it publicly available by the submission time for this project.
 This app will have little to no impact but may have a small following in the running world based on my knowledge and a guess of how many people are looking for this or ever hoped it was available. That along with the name not currently being used in the Garmin app store means it may muster a few thousand downloads at least.
 </pre>
-<a style="color:red;" href="https://careers-us.garmin.com/us/en/job/200009A/Software-Engineer-1-Android-App-Developer">Official Job Link</a> </br>
-<a style="color:red;" href="https://drive.google.com/file/d/1veEkTvKfuWtW9sBM_qII7sftYBko9UrM/view?usp=sharing">PDF Link (if job link expired)</a>
-
+</div>
 </body>
 </html>
